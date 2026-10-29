@@ -15,13 +15,32 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'TanStack Start Starter',
+        title: 'AI Finance',
+      },
+      {
+        name: 'theme-color',
+        content: '#1b2129',
       },
     ],
     links: [
       {
         rel: 'stylesheet',
         href: appCss,
+      },
+      {
+        rel: 'manifest',
+        href: '/manifest.webmanifest',
+      },
+      {
+        rel: 'icon',
+        href: '/icons/favicon-32.png',
+        sizes: '32x32',
+        type: 'image/png',
+      },
+      {
+        rel: 'apple-touch-icon',
+        href: '/icons/apple-touch-icon.png',
+        sizes: '180x180',
       },
     ],
   }),

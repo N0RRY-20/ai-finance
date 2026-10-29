@@ -1,3 +1,4 @@
+import { InstallButton } from '#/components/common/pwa-install-button'
 import { LoginForm } from '#/routes/-components/login-form'
 import { createFileRoute } from '@tanstack/react-router'
 import { GalleryVerticalEnd } from 'lucide-react'
@@ -15,6 +16,7 @@ function Home() {
           Acme Inc.
         </a>
         <LoginForm />
+        <InstallButton />
       </div>
     </div>
   )
